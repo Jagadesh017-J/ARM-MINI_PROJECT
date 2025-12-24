@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "door.o" --strict --scatter "DOOR.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DOOR.map" -o "DOOR.axf"
