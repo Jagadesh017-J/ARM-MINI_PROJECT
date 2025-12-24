@@ -1,0 +1,20 @@
+*** Creating Trace Output File '..\RFID\rfid.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\rfid\startup.o"'
+### List of Objects: adding '"..\rfid\rfid_can.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "..\rfid\startup.o" "..\rfid\rfid_can.o" --strict --scatter "..\RFID\rfid.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rfid.map" -o "..\RFID\rfid.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\RFID\rfid.axf'
+### ADS-LD Command File: '..\RFID\rfid.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\RFID\rfid.lnp', Handle=0x00000400
+### Writing '.lnp' file
+### ADS-LD Command file '..\RFID\rfid.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

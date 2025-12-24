@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "..\rfid\startup.o" "..\rfid\rfid_can.o" --strict --scatter "..\RFID\rfid.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rfid.map" -o "..\RFID\rfid.axf"

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'LDR.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ldr.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "ldr.o" --strict --scatter "LDR.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LDR.map" -o "LDR.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LDR.axf'
+### ADS-LD Command File: 'LDR.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LDR.lnp', Handle=0x0000012C
+### Writing '.lnp' file
+### ADS-LD Command file 'LDR.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
